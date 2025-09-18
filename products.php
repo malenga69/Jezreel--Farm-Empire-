@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Products - Jezreel Farm Empire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap">
+      <div><h1>Products</h1></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Our Crop Products</h2>
+      <div class="grid">
+        <div class="card"><img src="images/maize.svg" alt="Maize"><h4>Maize</h4><p>Field-dried maize ready for market.</p><a class="btn" href="https://wa.me/254700000000?text=I'm%20interested%20in%20Maize">Buy on WhatsApp</a></div>
+        <div class="card"><img src="images/beans.svg" alt="Beans"><h4>Beans</h4><p>Protein-rich beans, cleaned and packed.</p><a class="btn" href="mailto:info@jezreelfarm.com?subject=Order%20Beans">Email to order</a></div>
+        <div class="card"><img src="images/vegetables.svg" alt="Vegetables"><h4>Vegetables</h4><p>Fresh seasonal vegetables.</p><a class="btn" href="https://wa.me/254700000000?text=I'm%20interested%20in%20Vegetables">Buy on WhatsApp</a></div>
+        <div class="card"><img src="images/fruits.svg" alt="Fruits"><h4>Fruits</h4><p>Fresh fruits, cleaned and packed.</p><a class="btn" href="mailto:info@jezreelfarm.com?subject=Order%20Fruits">Email to order</a></div>
+      </div>
+    </section>
+  </main>
+
+  <?php include "footer.html"; ?>
+</body>
+</html>
